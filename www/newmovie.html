@@ -1,0 +1,63 @@
+<div class="page" data-name="newmovie">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-bg"></div>
+      <div class="left">
+        <a href="#" class="back link icon-only">
+          <i class="icon icon-back"></i>
+        </a>
+      </div>
+      <div class="title">New Movie</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <form method="POST" class="form-ajax-submit">
+      <div class="list no-hairlines-md">
+        <ul>
+          <li class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-floating-label">Title</div>
+              <div class="item-input-wrap">
+                <input id="tx_title" type="text" placeholder="input movie title" required />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-floating-label">Homepage</div>
+              <div class="item-input-wrap">
+                <input id="tx_homepage" type="text" placeholder="input movie homepage" required />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-floating-label">Overview</div>
+              <div class="item-input-wrap">
+                <textarea id="tx_overview" placeholder="input movie homepage" rows="4"></textarea>
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-floating-label">Release  Date</div>
+              <div class="item-input-wrap">
+                <input id="tx_rdate" type="text" placeholder="pick 		 release date" required readonly />
+                <span class="input-clear-button"></span>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-content item-input">
+            <div class="item-inner">
+              <input type="button" name="btnsubmit" id="btnsubmit" class="button button-fill button-big" value="SUBMIT" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+</div>
